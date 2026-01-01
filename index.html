@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klem Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="images/favicon.png" class="favicon">
+
+</head>
+<body>
+    <div id="header">
+        <img src="" alt="">
+
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" alt="KlemLogo" class="logo">
+               <ul id="sidemenu">
+    <img src="images/close-icon.png" class="click-icon" onclick="closemenu()">
+    <li><a href="#header" class="nav-text">Home</a></li>
+    <li><a href="#about" class="nav-text">About</a></li>
+    <li><a href="#services" class="nav-text">Projects</a></li>
+    <li><a href="#contact" class="nav-text">Contact</a></li>
+</ul>
+
+               <img src="images/menu-icon.png" class="click-icon" onclick="openmenu()">
+            </nav>  
+<div class="header-text">
+        
+    <p>Software Developer</p>
+
+    <h1>Hello, I'm <span>Clement</span> <br> Kenny from Nigeria</h1>
+            
+        </div>
+
+        </div>
+    </div>
+    
+    <!-- ...............About Section................ -->
+<div id="about">
+    <div class="about-container">
+        <div class="about-title">
+             <div class="about-image">
+            <img src="images/user.png" alt="aboutimage">
+            </div>
+        <div class="about-text">
+            <h2 class="sub-title">About Me</h2>
+            <p> I am a first-class graduate of Ladoke Akintola University of Technology (LAUTECH) with a strong passion for backend engineering. I focus on building secure, scalable applications, working with databases, APIs, and backend logic. I enjoy solving complex problems, learning new technologies, and creating reliable systems that power modern web applications.</p>
+            
+            <div class="tab-title">
+               <p class="title-link active-link" onclick="opentab('skills', event)">Skills</p>
+<p class="title-link" onclick="opentab('experience', event)">Experience</p>
+<p class="title-link" onclick="opentab('education', event)">Education</p>
+   
+            </div>
+<div class="about-content active-content" id="skills">
+<ul>
+        <li>Frontend Development <span><br>Building responsive and accessible U/I using HTML, CSS, JavaScript, and modern frameworks</span></li>
+
+         <li>Backend Engineering<span><br>Developing secure, scalable server-side applications, APIs, authentication syst   ems, and business logic</span></li>
+
+
+          <li>Database Management<span><br>Designing and managing SQL/NoSQL databases, performing CRUD operations, and optimizing queries</span></li>
+
+
+           <li>DevOps & Tooling<span><br>Using Git/GitHub, environment configuration, and deploying applications to cloud platforms.</span></li>
+
+
+            <li>Testing, Security & Problem Solving<span><br>Debugging, testing APIs, and applying web security best practices to build reliable systems.</span></li>
+
+</ul>
+</div>
+
+
+<div class="about-content" id="experience">
+<ul>
+        <li>2025-till date<span><br>Application Tester</span></li>
+        
+         <li>2024-2025<span><br>Backend Developer</span></li>
+
+          <li>2023 <span><br>Junior Full-Stack Developer (Freelance)</span></li>
+
+</ul>
+</div>
+
+
+<div class="about-content" id="education">
+<ul>
+     
+           <li>2025-till date<span><br>SQI College of ICT</span></li>
+
+              <li>2024-2025<span><br>Cousera Academy</span></li>
+               <li>2023-2024<span><br>UDEMY Academy</span></li>
+   <li>2017-2023 <span><br>Ladoke Akintola University of Teechnology</span></li>
+
+
+        </ul>
+</div>
+
+        </div>
+        </div>
+    </div>
+
+
+<!------------------- Services ---------------------->
+
+<div id="services">
+    <div class="services-container">
+
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+          <div>
+            <img src="images/app.png" alt="" class="imagesicons">
+                  <h2 class="servicesh2">Full Web Application Development</h2>
+            <p>I design and build complete web applications, handling both frontend and backend to ensure a seamless, responsive, and user-friendly experience.</p>
+            <a href="">Learn More</a>
+
+          </div>
+
+          <div>
+            <img src="images/b-end.png" alt="" class="imagesicons">
+                  <h2 class="servicesh2">Backend & API Engineering</h2>
+            <p>I develop secure, scalable server-side systems and RESTful APIs that power applications, manage business logic, and ensure smooth data flow.</p>
+            <a href="">Learn More</a>
+
+          </div>
+
+          <div>
+            <img src="images/database.png" alt="" class="imagesicons">
+                  <h2 class="servicesh2">Database & systems Integration</h2>
+            <p>I design and manage efficient databases while integrating third-party services and external APIs to enhance functionality and performance of the system.</p>
+            <a href="">Learn More</a>
+
+          </div>
+
+           <div>
+                <img src="images/maintanace.png" alt="" class="imagesicons">            
+                  <h2 class="servicesh2">Deployment, Maintenance & Support</h2>
+            <p>I deploy applications to cloud platforms, monitor performance, fix bugs, and continuously improve systems for reliability and scalability.</p>
+            <a href="">Learn More</a>
+
+          </div>
+
+          </div>
+          
+    </div>
+   
+
+</div>
+<!------------------- Portfolio section --------------------->
+ 
+<div id="portfolio">
+    <div class="port-container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="images/work-1.png">
+                 <div class="work-layer">
+                    <h3>E-commerce Website</h3>
+                  <p>This applications connect individuals in various locations allowing them to share idea, thoughts, update, files, pictures, and video of events in real time</p>
+                   <a href=""><img src="images/open-new.png" alt=""></a>
+
+            </div>
+                
+
+            </div>
+
+              <div class="work">
+                <img src="images/work-2.png">
+                <div class="work-layer">
+                    <h3>E-commerce Website</h3>
+                  <p>This applications connect individuals in various locations allowing them to share idea, thoughts, update, files, pictures, and video of events in real time</p>
+                   <a href=""><img src="images/open-new.png" alt=""></a>
+
+            </div>
+            </div>
+
+              <div class="work">
+                <img src="images/work-3.png">
+            <div class="work-layer">
+                    <h3>E-commerce Website</h3>
+                  <p>This applications connect individuals in various locations allowing them to share idea, thoughts, update, files, pictures, and video of events in real time</p>
+                    <a href=""><img src="images/open-new.png" alt=""></a>
+
+            </div>
+
+            </div>
+
+
+        </div>
+         <a href="" class="btn">See more</a>
+
+    </div>
+
+</div>
+<!-- Contact section -->
+ <div id="contact">
+    <div class="contact-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> agbonyinclement@gmail.com</p>
+                    <p>+2349032891701</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="images/fb2.png" alt=""></a>
+                        <a href="#"><img src="images/twitter1.png" alt=""></a>
+                        <a href="#"><img src="images/instagranlogo.png" alt=""></a>
+                        <a href="#"><img src="images/linkedin2.png" alt=""></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required> <br>
+                        <input type="email" name="Email" placeholder="Your Email" required> <br>
+                        <input type="text" name="Subject" placeholder="Subject" required> <br>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea> <br>
+                        <button type="submit" class="btn3">Submit</button>
+
+
+                    </form>
+
+                </div>
+            </div>
+
+    </div>
+
+    <div class="copyrigt">Copyright &copy; Klem 2026</div>
+ </div>
+
+ <!-- Footer section     -->
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html> 
