@@ -75,7 +75,7 @@ body{
         font-size: 40px;
     }
     .header-text h1{
-        font-size: 80px;
+        font-size: 70px;
         margin-top: 20px;
     }
     .header-text h1 span{
@@ -84,6 +84,19 @@ body{
      .header-text p{
         text-decoration: underline #ff004f 3px;
      }
+
+     
+  .header-text a{
+    text-decoration: none;
+   padding: 10px 14px;
+   font-size: 20px;
+    transition: background 0.8s, color 0.8s;}
+
+
+.header-text a:hover{
+    background-color: #ff004f;
+    color: #fff;
+}
 
      /* .................About Section................. */
         #about{
@@ -327,39 +340,6 @@ body{
 
 /* Contact information section */
 
-
-/* .social-icons a img{
-
-            width: 25px;
-            margin: 5px 5px;
-           border-radius: 40%;
-           justify-content: center;
-           align-items: center;
-}
-.contact-left{
-    display: block;
-    flex-basis: 35%;
-    
-}
-
-.contact-right{
-    
-    display: inline-flex;
-    flex-basis: 60%;
-
-}
-
-.contact-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-
-.contact-left p{
-    margin: 5px;
-}*/
 .btn.btn2{
     display: inline-block;
     background-color: #ff004f;
@@ -428,6 +408,11 @@ body{
     border-radius: 10px;
 }
 
+.btn3.btn3:clicked{
+    background-color: #fff;
+    color: #ff004f;
+    transition: 0.5s;
+}
 /*---------------- Footer section---------------- */
 .copyrigt{
     text-align: center;
@@ -456,7 +441,9 @@ body{
     background-position: center;
     padding: 0px 0px 110px 0px;
   }
-
+.logo{
+    width: 100px;
+  }
   .container{
     padding: 10px 5%;
   }
@@ -497,11 +484,14 @@ body{
     font-size: 20px;
     /* text-align: center; */
   }
+  .header-text p{
+    font-size: 16px;
+  }
 
   .header-text h1{
-    font-size: 26px;
-    margin-bottom: 75px;
-    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-top: 15px;
   }
 
   /* ABOUT SECTION */
@@ -556,5 +546,19 @@ body{
   .copyrigt{
     font-size: 14px;
   }
-}
 
+
+  .header-text a{
+    text-decoration: none;
+   padding: 8px 12px;
+   font-size: 14px;
+    transition: background 0.8s, color 0.8s;}
+
+
+.header-text a:hover{
+    background-color: #ff004f;
+    color: #fff;
+}
+  }
+
+/* ================= END OF MOBILE SCREEN ================= */
